@@ -59,7 +59,7 @@
     CGFloat iconX = roundf((NSWidth(bounds) - iconSize.width) / 2);
     CGFloat iconY = roundf((NSHeight(bounds) - iconSize.height) / 2);
     NSPoint iconPoint = NSMakePoint(iconX, iconY);
-    [icon drawAtPoint:iconPoint fromRect:bounds operation:NSCompositeSourceOver fraction:1.0];
+    [icon drawAtPoint:iconPoint fromRect:bounds operation:NSCompositingOperationSourceOver fraction:1.0];
 }
 
 #pragma mark -
